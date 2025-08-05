@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulter vos résultats - Cerballiance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo-center">
+                <img src="MATTEO.jpg" alt="Cerballiance">
+            </div>
+
+            <h2>Consulter vos résultats</h2>
+            <p class="subtitle">
+                Indiquez les codes présents sur le SMS envoyé par Cerballiance<br>
+                ou sur la fiche remise lors de votre visite au laboratoire.
+            </p>
+
+            <label for="dossier">Numéro de dossier</label>
+            <input type="text" id="dossier" placeholder="123C0101BC0001">
+
+            <label for="dob">Date de naissance</label>
+            <input type="text" id="dob" placeholder="JJ/MM/AAAA">
+
+            <button onclick="submitForm()">Accéder à vos résultats</button>
+
+            <p class="data-policy">
+                Votre laboratoire Cerballiance traite vos données personnelles pour vous permettre de consulter vos résultats.
+                Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, reportez-vous à la
+                <a href="politique.html">Politique de protection des données.</a>
+            </p>
+        </div>
+
+        <footer>
+            <a href="#">Mentions légales</a> ·
+            <a href="politique.html">Politique de protection des données</a> ·
+            <a href="#">Personnalisation des Cookies</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

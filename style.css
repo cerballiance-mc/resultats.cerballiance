@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4fafd url("haut:bas.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 560px; /* élargi */
+    padding: 20px;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 520px; /* élargi */
+    width: 100%;
+}
+
+.logo-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-center img {
+    height: 70px; /* logo agrandi */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #4c4092;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6955d9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.data-policy {
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.data-policy a {
+    color: #6955d9;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #777;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.politique-page {
+    max-width: 800px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+    margin: 40px auto;
+}
+
+.politique-page h2 {
+    font-size: 24px;
+    color: #4c4092;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.politique-page h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #333;
+}
+
+.politique-page p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
+}
