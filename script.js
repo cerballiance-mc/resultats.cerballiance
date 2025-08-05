@@ -2,8 +2,8 @@ function submitForm() {
     const dossier = document.getElementById("dossier").value.trim();
     const dob = document.getElementById("dob").value.trim();
 
-    const dossierValide = "a";
-    const dobValide = "a";
+    const dossierValide = "008250801GA005800";
+    const dobValide = "16/05/2007";
 
     if (dossier === dossierValide && dob === dobValide) {
         // Ouvre le fichier PDF dans un nouvel onglet
